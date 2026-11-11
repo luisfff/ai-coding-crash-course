@@ -47,8 +47,12 @@ The app will be running at `http://localhost:5173`.
 | `npm run typecheck`            | Type-check the project                 |
 | `npm run db:migrate`           | Run database migrations                |
 | `npm run db:seed`              | Seed the database                      |
+| `npm run request-logger`        | Start the local Claude request logger  |
+| `npm run claude`                | Start Claude Code through the logger   |
 | `npm run reset <slug>`         | Reset your repo to a lesson checkpoint |
 | `npm run cherry-pick <slug>`   | Cherry-pick a lesson's solution        |
+
+Run `npm run claude` to start the request logger in a separate terminal and launch Claude Code.
 
 ## Course Structure
 
