@@ -46,3 +46,17 @@ Feature specs live in `specs/`. When implementing one, its user stories are the 
 - `request-logger/` is course tooling, not app code; read `request-logger/CLAUDE.md` before touching it.
 - Request logging is on when `ANTHROPIC_BASE_URL` is `http://localhost:8787` (set by `npm run claude`). Every model request and response, including file contents and command output, is then written to `request-logger/logs/` (gitignored). Details: `request-logger/README.md`.
 - `.agents/skills/` and `.claude/skills/` are vendored skills; edit only when asked.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues on `luisfff/ai-coding-crash-course`, managed through the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five default roles, each label named after its role: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root, created only when a term or decision is settled. See `docs/agents/domain.md`.
